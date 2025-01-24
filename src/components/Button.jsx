@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Button = ({
   label,
   iconURL,
@@ -16,16 +15,8 @@ const Button = ({
       {label}
       {iconURL && <img src={iconURL} alt='Arrow Icon' className='ml-2 rounded-full bg-white w-5 h-5' />}
     </button>
-    
-    
-    
-      
-      
-      
       
   </>
- 
-
 
   ); 
 };
